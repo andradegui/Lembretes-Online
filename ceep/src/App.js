@@ -9,6 +9,8 @@ class App extends Component {
   constructor() {
     super();
     
+    /*serve para guardar valores que podem vir a mudar com a interação do usuário 
+    o state pode ser passado como props*/
     this.state = {
       notas:[]
     };

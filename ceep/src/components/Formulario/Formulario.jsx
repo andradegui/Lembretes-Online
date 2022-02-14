@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./estilo.css";
 
 class Formulario extends Component {
+  
+ /*props são valores para a configuração de um componente*/
   constructor(props) {
     super(props);
     this.titulo = "";
